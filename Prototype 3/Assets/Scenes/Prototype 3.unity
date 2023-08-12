@@ -408,7 +408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fab7f9ecd237cc4ea4ffeeb9d4a1dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
 --- !u!114 &835818923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,9 +458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3482cbf701d879449834d019455703ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityModifier: 2.5
+  gravityModifier: 2
   jumpForce: 10
-  isOnGround: 0
   gameOver: 0
 --- !u!65 &1036837613
 BoxCollider:
@@ -509,7 +507,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!1 &1275217147
 GameObject:
