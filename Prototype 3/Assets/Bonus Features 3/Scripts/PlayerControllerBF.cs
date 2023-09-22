@@ -6,8 +6,8 @@ public class PlayerControllerBF : MonoBehaviour
 {
     private Rigidbody rb;
 
-    public float jumpForce = 15f;
-    private float gravityModifier = 15f;
+    private float jumpForce = 10f;
+    private float gravityModifier = 2f;
     private bool isGrounded;
     private int jumpTimes = 2;
 
